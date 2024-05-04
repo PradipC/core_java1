@@ -1,12 +1,13 @@
 package org.example;
 
-public class B extends A {
+public class B extends A  {
 
  // Inheritance min. requires 2 classes
  // Inheritance enables the code reusability
  // It establish a parent-child relationship , where parent is super class
  // and child is sub class
  // child class is allowed to inherit the fields and methods of parent class
+// Java not support multiple Inheritance due to ambuigity error
 
     public B(){
         System.out.println("B object created");
