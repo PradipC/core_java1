@@ -7,6 +7,12 @@ public class HdfcBank extends RbiBank {
         System.out.println("we will give this time 6.4 roi");
     }
 
+    public static void getBalance(){
+        System.out.println("balance is 50 lakh");
+    }
+
+
+
     @Override
     public void getCustomerAccountDetails(String accId){
         System.out.println("This is Madhav account and acc id is "+accId);

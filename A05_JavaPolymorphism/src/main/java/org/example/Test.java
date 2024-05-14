@@ -23,6 +23,12 @@ public class Test {
 
         RbiBank bank = new HdfcBank();
         bank.getRateOfInterest();
+        bank.getBalance();
+
+        HdfcBank.getBalance();
+
+
+
        // bank.getCustomerAccountDetails(1234);
 
        // bank.getName();

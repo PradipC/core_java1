@@ -6,6 +6,11 @@ public class RbiBank {
          System.out.println("we will give this time 7.8 roi");
      }
 
+     public static void getBalance(){
+         System.out.println("balance is 1 crode");
+     }
+
+
 
      // Method overloading or compile time
      public void getCustomerAccountDetails(String accId){
