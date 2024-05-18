@@ -22,7 +22,7 @@ public class Main {
 
 
         System.out.println("*****************************");
-        String s1 = "Hello";
+        String s1 = "Hello"; // String literal
         System.out.println(s1.hashCode());
         String s2 = "Java";
         System.out.println(s2.hashCode());
@@ -32,9 +32,13 @@ public class Main {
         String s4 = new String("Hello");
         System.out.println(s4.hashCode());
 
-        String s5 = new String("Hello");
+        String s5 = new String("Hello"); // new keyword
         System.out.println(s5.hashCode());
 
+
+        String country = "India";
+
+        country = country.toLowerCase();
 
 
 
@@ -94,8 +98,37 @@ public class Main {
         String email = " pradip@gmail.com  ";
         System.out.println(email.length());
         System.out.println(email);
+
+        System.out.println("******");
         email = email.trim();
         System.out.println(email);
+        System.out.println(email.length());
+
+        String name4 = "madhav";
+        System.out.println(name4.length());
+
+
+
+        String sentence = "what is ";
+
+        sentence = sentence.concat(" your favorite ");
+
+        sentence = sentence.concat(" color ? ");
+
+
+        // String is Immutable in Java ,
+        // Immutable Object means the Object which we created at Initial , if we update the same Object
+           // then it will not update the same Object , instead of It will create new Object
+
+        // It stores Object inside String Constant pool Area
+
+        // So when we're creating any Object , and that Object is already available inside SCPA ,
+           // then it will reuse that same Object
+           // so we will save the memory usage
+
+
+
+
 
 
 
